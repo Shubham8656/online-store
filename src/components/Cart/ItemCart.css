@@ -1,0 +1,36 @@
+.ItemCard-container{
+    box-shadow: 3px 3px 8px grey;
+}
+.ItemCard-container:hover{
+    box-shadow: 5px 5px 15px black;
+}
+.counter-button{
+    display: flex;
+    justify-content: center;
+    height: 35px;
+    color: green;
+    font-weight: 500;
+}
+#increment,#count,#decrement{
+    width: 15%;
+    border: 1px solid black;
+    align-self: center;
+   
+}
+#increment,#decrement{
+    background-color:rgb(5, 167, 5);
+    color: white;
+}
+#increment:hover,#decrement:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+#cart-image{
+    width:50px;
+    height: 50px;
+}
+.horizontal-line{
+    border: 0.5px solid grey;
+    width: 400%;
+    margin: 0 3%;
+}

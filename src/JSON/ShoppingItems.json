@@ -1,0 +1,58 @@
+[
+    {
+       "id":1,
+       "Name": "Sugar",
+       "Price": 40,
+       "unit":"1kg",
+       "Image": "https://st2.depositphotos.com/3147737/5188/i/950/depositphotos_51888195-stock-photo-hyderabadi-biryani-a-popular-chicken.jpg"
+     },
+     {
+       "id":2,
+       "unit":1,
+       "Name": "Egg",
+       "Price": 5,
+       "Image": "https://www.archanaskitchen.com/images/archanaskitchen/1-Author/Neha_Mathur/Achari_Paneer_Tikka_Recipe_Party_Food.JPG"
+     },
+     {
+        "id":3,
+        "Name": "Sugar",
+        "Price": 40,
+        "unit":"1kg",
+        "Image": "https://st2.depositphotos.com/3147737/5188/i/950/depositphotos_51888195-stock-photo-hyderabadi-biryani-a-popular-chicken.jpg"
+      },
+      {
+        "id":4,
+        "unit":1,
+        "Name": "Egg",
+        "Price": 5,
+        "Image": "https://www.archanaskitchen.com/images/archanaskitchen/1-Author/Neha_Mathur/Achari_Paneer_Tikka_Recipe_Party_Food.JPG"
+      },
+      {
+        "id":5,
+        "Name": "Sugar",
+        "Price": 40,
+        "unit":"kg",
+        "Image": "https://st2.depositphotos.com/3147737/5188/i/950/depositphotos_51888195-stock-photo-hyderabadi-biryani-a-popular-chicken.jpg"
+      },
+      {
+        "id":6,
+        "unit":1,
+        "Name": "Egg",
+        "Price": 5,
+        "Image": "https://www.archanaskitchen.com/images/archanaskitchen/1-Author/Neha_Mathur/Achari_Paneer_Tikka_Recipe_Party_Food.JPG"
+      },
+      {
+        "id":7,
+        "Name": "Sugar",
+        "Price": 40,
+        "unit":"kg",
+        "Image": "https://st2.depositphotos.com/3147737/5188/i/950/depositphotos_51888195-stock-photo-hyderabadi-biryani-a-popular-chicken.jpg"
+      },
+      {
+        "id":8,
+        "unit":1,
+        "Name": "Egg",
+        "Price": 5,
+        "Image": "https://www.archanaskitchen.com/images/archanaskitchen/1-Author/Neha_Mathur/Achari_Paneer_Tikka_Recipe_Party_Food.JPG"
+      }
+]

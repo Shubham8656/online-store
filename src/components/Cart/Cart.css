@@ -1,0 +1,278 @@
+/* .cart-container{
+    background-color: grey;
+    height: 50px;
+} */
+#cart-header{
+    font-size: 25px;
+    font-weight: 500;
+    font-family: sans-serif;
+    padding: 1%;
+    /*text-align: left;*/
+    display: flex;
+    justify-content: space-between;
+}
+#proceed{
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    height: 40px;
+    width: 20%;
+    margin-top: 5%;
+    font-size: 130%;
+    border: 0;
+    box-shadow: 2px 2px 5px grey;
+    background: #25a541;
+    color: white;
+}
+#proceed:hover{
+    box-shadow: 2px 2px 10px grey;
+}
+#empty-cart{
+    font-size: 300%;
+    margin: auto;
+    margin-top: 30%;
+    color: red;
+}
+.cart-container{
+    /* display: flex; */
+}
+.item-cart-container{
+    /* display: flex */
+    /* border: 1px solid black; */
+}
+.empty-cart-logo{
+    width: 300px;
+    height: 260px;
+    background: url(https://content.dmart.in/site/static/media/empty-cart.34f07c6a.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+.cart-table-container{
+    /* border: 2px solid black; */
+    width: 100%;
+}
+.cart-table{
+    /* border: 5px solid  red; */
+    width: 60%;
+    margin-left: 1%;
+}
+.cart-table th{
+        padding-top: 12px;
+        padding-bottom: 12px;
+        background-color: #4CAF50;
+        /* background-color: orange; */
+        color: white;
+        width: 25%;
+        font-size: 110%;
+}
+
+.cart-table td{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    
+}
+table tr{
+    border: 1px solid black;
+}
+.price-summary-container{
+    position: fixed;
+    right:5%;
+    top: 140px;
+    /* border: 1px solid black; */
+    width: 20%;
+}
+.price-summary-box{
+    width: 100%;
+    background: #fff;
+    border: .5px solid #d3d3d3;
+    border-radius: 4px;
+}
+.price-summary-box1{
+    padding: 16px;
+    border-bottom: .5px solid #d3d3d3;
+}
+.price-summary{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.price-summary p{
+    font-size: 90%;
+}
+
+
+#proceed-to-checkout-butt{
+    width: 100%;
+    margin-top: 5%;
+    font-size: 100%;
+    border: 0px;
+    box-shadow: 2px 2px 5px grey;
+    background: #25a541;
+    color: white;
+    padding: 2%;
+}
+#proceed-to-order{
+
+    font-size: 100%;
+    border: 0px;
+    box-shadow: 2px 2px 5px grey;
+    background: #25a541;
+    color: white;
+    padding: 2%;
+    text-decoration: none;
+    /*margin-top: 100px;*/
+}
+
+@media screen and (max-width:450px){
+    #sign-in-image{
+        height: auto;
+        display: none;
+      }
+    .item-cart-container{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        padding: 1%;
+    }
+    #proceed{
+        position: sticky;
+        bottom: 0;
+        left: 0;
+        height: 40px;
+        width: 60%;
+        margin-top: 5%;
+        font-size: 130%;
+        border: 0;
+        box-shadow: 2px 2px 5px grey;
+    }
+}
+@media screen and (max-width:800px){
+    .item-cart-container{
+        display: grid;
+        grid-template-columns: 33.3% 33.3% 33.3%;
+        padding: 1%;
+    }
+    #empty-cart{
+        font-size: 350%;
+        margin: auto;
+        margin-top: 10%;
+        color: red;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #proceed{
+        position: sticky;
+        bottom: 0;
+        left: 0;
+        height: 40px;
+        width: 40%;
+        margin-top: 5%;
+        font-size: 130%;
+        border: 0;
+        box-shadow: 2px 2px 5px grey;
+    }
+}
+.modal{
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+  }
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .sign-in-container{
+    display: flex;
+    /* min-width: 20%; */
+    max-width: 100%;
+    height: 440px;
+    max-height: 95vh;
+    border-radius: 4px;
+    background-color: rgb(250, 249, 249);
+  }
+  #sign-in-image{
+    height: auto;
+  }
+  .inputs-container{
+    padding: 18px 18px 12px;
+    background-color: #fff;
+    flex-grow: 1;
+    border-radius: 4px;
+    display: flex;
+    flex-flow: column;
+    overflow: auto;
+  }
+  .input-container{
+      /* background-color: rgb(211, 245, 202); */
+      margin-bottom: 5%;
+  }
+  #label{
+    margin-bottom: 8px;
+    font-family: Muli,sans-serif;
+    font-weight: 400;
+    font-size: var(--font-xxs);
+    color: #9e9e9e;
+    float: left;
+  }
+  #label-forgot{
+    cursor: pointer;
+    margin-top: 8px;
+    font-family: Muli,sans-serif;
+    font-weight: 300;
+    font-size: 80%;
+    color: #25b102;
+    float: right;
+  }
+  #email{
+        font: inherit;
+        color: currentColor;
+        width: 100%;
+        border: 1px solid rgb(95, 94, 94);
+        height: 0.8276em;
+        margin: 0;
+        display: block;
+        padding: 6px 0 7px;
+        min-width: 0;
+        outline: none;
+        background: none;
+        box-sizing: content-box;
+        animation-name: mui-auto-fill-cancel;
+        letter-spacing: inherit;
+        animation-duration: 10ms;
+        -webkit-tap-highlight-color: transparent;
+  }
+  .newuser{
+    margin-top: 40%;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: Muli,sans-serif;
+    font-weight: 700;
+    font-size: 90%;
+    color: #25a541;
+  }

@@ -1,0 +1,22 @@
+.navbar{
+    background-color: rgb(204, 168, 250);
+    height: 15%;
+    color: white;
+    font-size: 150%;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
+a{
+    list-style-type: none;
+    text-decoration: none;
+    color: rgb(44, 43, 43);
+}
+#link:hover{
+    color: white;
+    background-color: white;
+    border-radius: 10px;
+}

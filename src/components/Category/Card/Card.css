@@ -1,0 +1,21 @@
+
+.card-container{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 5%;
+    box-shadow: 2px 2px 6px rgb(101, 110, 101);
+}
+.card-container:hover{
+    box-shadow: 3px 3px 15px black;
+}
+img{
+    width: 100%;
+    height: 150px;
+}
+#card-items{
+    font-size: 20px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
