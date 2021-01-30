@@ -102,7 +102,7 @@ class Order extends Component{
                 <div style={{fontSize:'90%',color:'blue'}}>Delivery charges applies based on user location</div>
                 <br/>
                 <div style={{fontSize:'90%',color:'grey'}}>For 1km - 5 Rs</div>
-                <button id='order' onClick={this.submitHandler}>Order</button>
+                <button id='proceed' onClick={this.submitHandler}>Order</button>
             </div>
         </div>
     );
