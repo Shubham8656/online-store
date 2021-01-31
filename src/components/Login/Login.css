@@ -2,3 +2,12 @@
     font-size: 10px;
     color: red;
 }
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.email{
+    width: 100%;
+}
