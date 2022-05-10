@@ -7,7 +7,7 @@ import storeLogo from '../image/shop-logo.jpg';
  function Header(props){
     
     const[items,setitems]=useState(props.length)
-    // console.log('items',items)
+    console.log('props',props)
     useEffect(()=>{
         setitems(props.length)
         // console.log('useeffect',items)
@@ -39,7 +39,7 @@ import storeLogo from '../image/shop-logo.jpg';
 }
 const mapStateToProps=(state)=>{
     return{
-        length:state.length,
+        length:state.cart.length,
         isLoggedIn: state.isLoggedIn
     }
 }
